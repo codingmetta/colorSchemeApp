@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 50px;
+    background-color: #D1D5DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  
+  .app {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F293A;
+    color: #D1D5DB;
+    font-size: 16px;
+    justify-content: space-between;
+    border: none;
+  }
+  
+
+  
+  /*HEADER SECTION*/
+  .header-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    flex-basis: auto;
+    border: none;
+  }
+  
+  #colorpicker {
+    margin-left: 16px;
+    margin-right: 6px;
+    flex: 1 0 61px;
+    height: 48px;
+    cursor: pointer;
+  }
+  
+  select {
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+    appearance: none;
+    font-size: 16px;
+    border: 2px solid #D1D5DB;
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+    color: #D1D5DB;
+  }
+  
+  .select-wrapper {
+    margin-left: 10px;
+    margin-right: 16px;
+    flex: 4 1 312px;
+    height: 43px;
+    position: relative;
+  }
+
+  .select-wrapper::after {
+    content: "⌵";
+    color: #9ca3af;
+    font-size: 26px;
+    width: 0;
+    height: 0;
+    top: 4px;
+    right: 30px;
+    position: absolute;
+  }
+  
+  
+  /*MAIN SECTION*/
+  
+  .main-colorscheme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: auto;
+    height: 100%;
+  }
+  
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /*FOOTER SECTION*/
+  
+  .footer-hex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    flex-basis: auto;
+    height: 60px;
+  }
+  
+  .hex-container {
+    flex-basis: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    cursor: copy;
+    color: #D1D5DB;
+
+  }
+  
+  /*accessibility*/
+  .visually-hidden {
+    position: absolute;
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  
