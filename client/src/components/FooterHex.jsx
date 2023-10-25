@@ -3,12 +3,8 @@ export default function FooterHex({hexScheme}) {
 
     function handleClick(event){
         let hexcode = event.target.textContent;
-        console.log(hexcode);
-        // Copy the text inside the text field
         navigator.clipboard.writeText(hexcode);
-    
-        // Alert the copied text
-        alert("Color "+ hexcode + " copied!");
+            alert("Color "+ hexcode + " copied!");
     }
     return (
         <section className="footer-hex">

@@ -69,10 +69,6 @@ useEffect(() => {
     }
     setMode(res)
   }
-/*  function handleClick() {
-    setIsPressed(prev => !prev)
-  }*/
-
 
   return (
     <div className="app">
