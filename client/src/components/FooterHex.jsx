@@ -1,5 +1,5 @@
+/* eslint-disable react/prop-types */
 export default function FooterHex({hexScheme}) {
-
 
     function handleClick(event){
         let hexcode = event.target.textContent;

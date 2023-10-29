@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export default function HeaderTools({colorScheme, handleChange, handleMode}) {
+export default function HeaderTools({ colorScheme, handleChange, handleMode }) {
  
 function changeColor(event){
     handleChange(event.target.value)

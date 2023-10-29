@@ -1,4 +1,5 @@
-export default function MainScheme({colorScheme}) {
+/* eslint-disable react/prop-types */
+export default function MainScheme({ colorScheme }) {
     return (
         <section className="main-colorscheme">
             <div id="first" className="box" style={{backgroundColor:colorScheme.first}} ></div>
