@@ -1,6 +1,6 @@
 # Project Overview
 
-ColorSchemeGen is a React Component that let's you generate customized color schemes. By selecting a color and mode in the UI you can specifiy which scheme you want to load. Once loaded, you can copy a colors hexcode e. g. `#FFFFFF` just by clicking on its label below.
+ColorSchemeApp is a React app based on function components that let's you generate customized color schemes. By selecting a color and mode in the UI you can specifiy which scheme you want to load. Once loaded, you can copy a colors hexcode e. g. `#FFFFFF` just by clicking on its label below.
 
 # Installation Instructions
 
