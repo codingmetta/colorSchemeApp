@@ -1,13 +1,13 @@
 # Project Overview
 
-ColorSchemeGen is a React Component that let's you generate customized color schemes. By selecting a color and mode in the UI you can specifiy which scheme you want to load. Once loaded, you can copy a colors hexcode e. g. `#FFFFFF` just by clicking on it's label below.
+ColorSchemeGen is a React Component that let's you generate customized color schemes. By selecting a color and mode in the UI you can specifiy which scheme you want to load. Once loaded, you can copy a colors hexcode e. g. `#FFFFFF` just by clicking on its label below.
 
 # Installation Instructions
 
 ## Info: React using Vite
 This React App was created using Vite. 
 
-For more Information on how to do this by yourself, visit the Developer Guide on [Vite](https://vitejs.dev/guide/)
+For more Information on how to do this by yourself, visit the Developer Guide on [Vite](https://vitejs.dev/guide/).
 
 ## Info: Requests to The Color API
 
@@ -28,7 +28,7 @@ No instructions needed.
 
 # Configuration
 
-No Configuration given. 
+No configuration given. 
 
 
 # License
